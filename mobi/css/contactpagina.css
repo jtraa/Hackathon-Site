@@ -1,0 +1,307 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+.debug {
+    border: 5px solid red;
+}
+#woonplaats{
+    font-family: 'Rubik', sans-serif; 
+    width: 200px;
+    height: 20px;
+}
+#subject{
+    width: 200px;
+    height: 20px;
+}
+
+#verzend{
+    width: 80%;
+    height: 30px; 
+    color: white;
+    border:none;
+    background-color: #27aae1;   
+    background-size: 300%;
+    font-family: 'Rubik', sans-serif; 
+    letter-spacing: 2px;
+    border-radius: 4px;
+    padding: 0;
+}
+
+#verzend:hover {
+    background-size: 120%;
+    transition: 2s ease;
+}
+
+.form{
+    float: right;
+    padding: 50px 50px 50px 100px;
+    margin-top: 50px;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    text-align: left;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.form h2 {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Thasadith', sans-serif;
+}
+
+.form h4 {
+    font-family: 'Thasadith', sans-serif;
+    letter-spacing: 1px;
+}
+
+.gegevens { 
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 1px;
+    height: 30px;
+    width: 80%;
+    background-color: #e6e6e6;
+}
+
+.background-container{
+    width: 100%;
+    margin-top:80px;
+    background-color: white;
+    background-image: url("../bgimg3.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 650px;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    z-index: -1;
+}
+
+@keyframes fadein {
+    0%{opacity:0;};
+    100%{opacity:1;};
+
+}
+.contactformulier{
+    color: rgb(8, 38, 95);
+    margin-top: 50px;
+   
+    float:right;
+}
+
+.brand-txt {
+    font-weight: bold;
+}
+
+.brand-txt:hover {
+    text-decoration: underline;
+    color: #1a75ff ;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.invultag {
+    margin: 0 0 5px 0;
+}
+.schaduw{
+    float: left;
+    padding-left: 2%;
+    margin-top: 400px;
+    padding-right: 20px;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 2;
+    width: 25%;
+}
+
+#branding {
+    max-height: 45px;
+    float: left;
+    margin: 10px 0 0 20px
+}
+
+.nav-links {
+    float: right;
+    padding: 20px 30px 0 0;
+}
+
+.nav-links a {
+    padding: 0 15px;
+    color: #001f4d;
+    float: right;
+}
+
+.nav-links a:hover {
+    color: #0099ff;
+    transition: 1s ease;
+}
+
+.navbar {
+    width: 70%;
+    height: 50px;
+    margin-left: 15%;
+    position: fixed;
+    padding-top: 10px;
+    background-color: rgba(0,0,0,0.0);
+    z-index: 5;
+}
+
+.navbar-container {
+    background-color: rgba(255,255,255,0.4);
+    height: 80px;
+    width: 100%;
+    margin-right: -10px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+.navbar-container:hover {
+    background-color: white;
+    transition: 1s ease;
+}
+
+/*/////////////////////deel2//////////////////////*/
+
+.container-support{
+display:flex;
+justify-content: center;
+height: 200px;
+width: 100%;
+background-color: #27aae1;
+}
+
+.box-support{
+    align-self: center;
+    text-align: center;
+    color:white;
+    display: flex;
+    flex-direction: column;
+
+}
+.support1{
+    font-size: 50px
+}
+
+.support2{
+    font-size: 30px;
+}
+
+.box-options{
+   
+    text-align: center;
+    list-style: none;
+
+}
+
+.box-options li{
+    padding:50px 20px;
+    text-align: center;
+    display: inline-block;
+    justify-content: space-around;
+    width: 300px;
+    margin-top:50px;
+}
+
+.box-options li:hover{
+    color:gray;
+    transition: 1s ease;
+}
+
+
+.plaatjes{
+    height:75px;
+    width: auto;
+}
+
+
+/*//////////////////////footer//////////////////*/
+.footer-container{
+bottom: 10px;
+height: 80px;
+width: 100%;
+border-top: solid #27aae1 1px;
+}
+
+.footer-links{
+    display: inline-block;
+    margin-left: 50px;
+    color: #27aae1;
+    padding-top:30px;
+    max-height: 50px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #27aae1 ;
+}
+.links{
+    display: inline-block;
+    padding: 0 15px;
+    border-left: 1px solid #27aae1;
+
+}
+.logo{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer-rechts{
+float: right;
+padding: 0 15px;
+margin-right: 150px;
+margin-top:10px;
+display: inline-block;
+
+}
+
+.footer-rechts img{
+width:60px;
+height:60px;
+}
+
+.footer-rechts img:hover{
+    filter: brightness(80%);
+    transition: 1s ease;
+}
+
+h3{
+color:#27aae1;
+}
+
+.sellingpoints-container{
+display: flex;
+justify-content: center;
+width:100%;
+}
+
+.points{
+width:300px;
+padding:20px;
+}
+
+.knop-containter{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.knop{
+    display: block;
+    border: none;
+    width:280px;
+    border-radius: 15px;
+    background-color: #20b7e8;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #fff;
+    transition: 0.3s;
+    padding:10px 0px;
+    margin:auto;
+}

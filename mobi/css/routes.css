@@ -1,0 +1,36 @@
+.debug{
+    border: 1px solid red;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+img{
+    Width: 100%;
+    Height: auto;
+
+
+
+}
+
+.slideshow{
+    max-width: 1000px;
+    position: relative;
+    margin:0 auto;
+}
+
+.text{
+color:#27aae1;
+font-size: 30px;
+padding: 8px 12 px;
+position: absolute;
+bottom:30px;
+width: 100%;
+text-align: center;
+}
+
+.myslides{
+}
